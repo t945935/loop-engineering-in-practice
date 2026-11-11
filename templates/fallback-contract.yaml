@@ -1,0 +1,7 @@
+fallback:
+  route: ""
+  changed_semantics: []
+  unavailable_guarantees: []
+  label_shown_to_reader: ""
+  verifier_changes: []
+  approval_required: false

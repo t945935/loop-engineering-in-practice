@@ -1,0 +1,128 @@
+{
+  "book": {
+    "title": "Loop Engineering in Practice",
+    "subtitle": "Designing Reliable AI Agent Loops with State, Verification, Budgets, and Safe Stops",
+    "author": "Happy eBook Author",
+    "publisher": "Happy eBook",
+    "language": "en",
+    "copyright_notice": "Copyright 2026 Happy eBook Author. All rights reserved."
+  },
+  "package": {
+    "version": "1.0.0",
+    "language": "en",
+    "prepared_on": "2026-11-11",
+    "scope": "Appendix companion templates, worksheets and one illustrative State record; not the full book or an Agent runtime."
+  },
+  "source": {
+    "file": "GGKEY_Y2Y99X1XJG8 (1).epub",
+    "sha256": "5d4221eec2af2384863d38a314ca40d566d9a2ee634809a72c3fec3de61822b0",
+    "epub_identifier": "urn:uuid:31a90771-80a1-4efa-a7fd-c41d30504e75",
+    "digest_scope": "Exact inspected input bytes, not all copies of the edition and not proof of correctness."
+  },
+  "materials": [
+    {
+      "path": "templates/core-loop-spec.yaml",
+      "source_member": "EPUB/text/ch022.xhtml",
+      "source_section": "Core Loop Specification",
+      "transformation": "Verbatim preformatted source block; final newline normalized.",
+      "kind": "template",
+      "sha256": "6fcc8e5bb80bbfffe5c3c1d72bd5c065311f5726f2b653fd52d00b6638fed2be"
+    },
+    {
+      "path": "templates/governance-extension.yaml",
+      "source_member": "EPUB/text/ch022.xhtml",
+      "source_section": "Governance extension: Loop Playbook v3.0",
+      "transformation": "Verbatim preformatted source block; final newline normalized.",
+      "kind": "template",
+      "sha256": "6574c5f8cf26035f5cfe8924652f049f39c3a01d90dab4122b428f72e3fe738b"
+    },
+    {
+      "path": "templates/verification-report.yaml",
+      "source_member": "EPUB/text/ch023.xhtml",
+      "source_section": "Minimum verification report",
+      "transformation": "Verbatim preformatted source block; final newline normalized.",
+      "kind": "template",
+      "sha256": "20a56a1132409a019e26fdb02afb0e4c8627a5375e52f7fb147cba8f3a851994"
+    },
+    {
+      "path": "templates/next-action-decision.yaml",
+      "source_member": "EPUB/text/ch024.xhtml",
+      "source_section": "Before each expensive Action",
+      "transformation": "Verbatim preformatted source block; final newline normalized.",
+      "kind": "template",
+      "sha256": "609d835a75487a9ec623e2c1e015f0e386f7ec85f24ccfa8636d2041b062015b"
+    },
+    {
+      "path": "templates/fallback-contract.yaml",
+      "source_member": "EPUB/text/ch025.xhtml",
+      "source_section": "Fallback contract",
+      "transformation": "Verbatim preformatted source block; final newline normalized.",
+      "kind": "template",
+      "sha256": "4992eb41ccaa247f00ac65168b7d1462e0c98077406479c164f3d8b19f0ae08d"
+    },
+    {
+      "path": "templates/project-rules/AGENTS.md",
+      "source_member": "EPUB/text/ch026.xhtml",
+      "source_section": "Minimum AGENTS.md",
+      "transformation": "Verbatim preformatted source block; final newline normalized.",
+      "kind": "template",
+      "sha256": "20fc53ee5673512051a708b20c95753a87d24950404408502f580e7f2d2a192d"
+    },
+    {
+      "path": "templates/validate-release/SKILL.md",
+      "source_member": "EPUB/text/ch026.xhtml",
+      "source_section": "Minimum SKILL.md",
+      "transformation": "Verbatim preformatted source block; final newline normalized.",
+      "kind": "template",
+      "sha256": "465440e78ab9655f6ff8a234b57818e0b47685a27b0196689ccf0782244c2948"
+    },
+    {
+      "path": "examples/state/minimum-state.json",
+      "source_member": "EPUB/text/ch026.xhtml",
+      "source_section": "Minimum State",
+      "transformation": "Verbatim preformatted source block; final newline normalized.",
+      "kind": "illustrative example",
+      "sha256": "b5e5843bf370d7d612ea4be2ed763b86165e2bb3a60242d781f7ed4096d3bb34"
+    },
+    {
+      "path": "worksheets/ten-minute-loop.md",
+      "source_member": "EPUB/text/ch022.xhtml",
+      "source_section": "Ten-minute minimum version",
+      "transformation": "Source prompts/checklists/tables reformatted as a Markdown worksheet; reader-use instructions and local links added.",
+      "kind": "worksheet",
+      "sha256": "2e5d1f929bd9416d8efd90e8118ec8528ee519ab2c613db800248f89ce350770"
+    },
+    {
+      "path": "worksheets/verifier-evidence.md",
+      "source_member": "EPUB/text/ch023.xhtml",
+      "source_section": "Acceptance contract; Evidence binding; Authority over completion",
+      "transformation": "Source prompts/checklists/tables reformatted as a Markdown worksheet; reader-use instructions and local links added.",
+      "kind": "worksheet",
+      "sha256": "87feae8e7cde27b7fbac92673fb41b3d74d26820d0377e4f566b9833445d0c52"
+    },
+    {
+      "path": "worksheets/budget.md",
+      "source_member": "EPUB/text/ch024.xhtml",
+      "source_section": "Action allowance; Closure and absolute limits",
+      "transformation": "Source prompts/checklists/tables reformatted as a Markdown worksheet; reader-use instructions and local links added.",
+      "kind": "worksheet",
+      "sha256": "5c9d1e950a7fe19dc56fc273612f428e3d15f957c9a0442f6036b162118c9916"
+    },
+    {
+      "path": "worksheets/retry-fallback-circuit-breaker.md",
+      "source_member": "EPUB/text/ch025.xhtml",
+      "source_section": "Failure classification; Retry decision; Circuit breaker",
+      "transformation": "Source prompts/checklists/tables reformatted as a Markdown worksheet; reader-use instructions and local links added.",
+      "kind": "worksheet",
+      "sha256": "96e981ad563d31abbc398db8df20317b21ca96b7c8d47e97e2549f13bbf3e484"
+    }
+  ],
+  "excluded": [
+    "Complete manuscript and EPUB/PDF",
+    "Cover and figures",
+    "Reading bookmarks and private production data",
+    "Third-party dependencies and production tools",
+    "Programs referenced under examples/ in the book whose source has not been obtained"
+  ],
+  "evidence_limit": "Source extraction and companion-file validation do not demonstrate any runtime described by the book. State values and verdict-choice strings remain illustrative or unfilled."
+}

@@ -1,0 +1,10 @@
+verification:
+  task_id: ""
+  run_id: ""
+  artifact_digest: ""
+  contract_version: ""
+  checker_identity: ""
+  checks: []
+  unsupported_claims: []
+  verdict: "pass | fail | inconclusive"
+  created_at: ""

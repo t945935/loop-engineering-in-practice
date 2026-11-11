@@ -1,0 +1,38 @@
+name: Content correction
+description: Report an error or unclear passage in the English book or included companion files.
+title: "[Correction] "
+body:
+  - type: markdown
+    attributes:
+      value: "Quote only the necessary short passage. Do not upload the full book, private data, credentials, or a private project. A submitted report is not yet a confirmed correction."
+  - type: input
+    id: location
+    attributes:
+      label: Book edition and location
+      description: "Give the language/version and chapter/subsection, or companion file path. Page numbers are optional."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Explain what is incorrect or unclear and what you observed.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction or supporting source
+      description: Leave blank if you do not know the correct answer.
+  - type: input
+    id: environment
+    attributes:
+      label: Tool versions and operating system
+      description: For operational issues, include versions you can confirm.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public-data check
+      options:
+        - label: "I checked the text and attachments for secrets, personal data, and material I am not permitted to share."
+          required: true

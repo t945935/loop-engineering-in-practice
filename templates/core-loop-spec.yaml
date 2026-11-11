@@ -1,0 +1,67 @@
+loop_card:
+  id: ""
+  schema_version: "core-1.0"
+  instance_version: ""
+  owner: ""
+  updated_at: ""
+
+  trigger:
+    accepted_signals: []
+    canonical_task_key: ""
+    admission_policy: ""
+
+  goal:
+    outcome: ""
+    constraints: []
+    non_goals: []
+
+  context:
+    required_inputs: []
+    source_policy: ""
+    policy_version: ""
+
+  action:
+    allowed: []
+    prohibited: []
+    side_effect_classes: {}
+
+  observation:
+    required_receipts: []
+    read_back_checks: []
+
+  verifier:
+    contract_version: ""
+    required_evidence: []
+    protected_assets: []
+    verdict_owner: ""
+
+  state:
+    store: ""
+    schema_version: ""
+    optimistic_version_field: "state_version"
+    dedupe_key: ""
+
+  budget:
+    task_deadline: ""
+    action_soft_limit: {}
+    action_hard_limit: {}
+    closure_reserve: {}
+    absolute_total_limit: {}
+
+  stop_rule:
+    success: []
+    retry: []
+    escalate: []
+    fail: []
+
+  completion_authority:
+    maker: ""
+    checker: ""
+    approver: ""
+
+  workspace_and_permissions:
+    writable_roots: []
+    readable_roots: []
+    network_allowlist: []
+    secret_refs: []
+    approval_required: []

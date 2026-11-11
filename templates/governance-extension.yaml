@@ -1,0 +1,51 @@
+governance_extension:
+  orchestration:
+    coordinator: ""
+    max_active_agents: null
+    work_package_schema: ""
+    stale_result_policy: ""
+    merge_owner: ""
+    arbiter: ""
+
+  tool_contracts:
+    allowed_tools: []
+    identity_and_scope: {}
+    side_effect_classes: {}
+    idempotency_keys: {}
+    reconciliation_actions: {}
+    required_receipts: []
+    read_back_checks: []
+
+  outcome_protection:
+    true_outcome: ""
+    proxy_metrics: []
+    prohibited_shortcuts: []
+    protected_assets: []
+    drift_signals: []
+    freeze_rules: []
+
+  human_control:
+    goal_owner: ""
+    risk_tolerance: ""
+    sampling_policy: ""
+    audit_owner: ""
+    approval_actions: []
+    highest_automatic_result: ""
+    decision_packet_fields: []
+
+  incident_response:
+    incident_owner: ""
+    evidence_owner: ""
+    freeze_scope: []
+    rollback_candidate: ""
+    recovery_gate: ""
+    public_correction_owner: ""
+
+  lifecycle:
+    evidence_retention: ""
+    review_cadence: ""
+    next_review_at: ""
+    retirement_conditions: []
+    previous_version: ""
+    change_reason: ""
+    approved_by: ""

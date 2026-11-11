@@ -1,0 +1,38 @@
+name: Reader question
+description: Ask about a concept, worksheet, or companion file in the English book.
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: "This issue may be public. Do not include credentials, personal data, the full book, or private project files. No fixed response time is promised."
+  - type: input
+    id: location
+    attributes:
+      label: Book edition and location
+      description: "Give the language/version and chapter/subsection, or companion file path. Page numbers are optional."
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to understand?
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: What you tried and observed
+      description: "For an operational question, include a minimal example, expected result, and actual result."
+  - type: input
+    id: environment
+    attributes:
+      label: Tool versions and operating system
+      description: "Leave blank for conceptual questions or when unknown; do not guess."
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public-data check
+      options:
+        - label: "I checked the text and attachments for secrets, personal data, and material I am not permitted to share."
+          required: true

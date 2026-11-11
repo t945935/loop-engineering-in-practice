@@ -1,0 +1,8 @@
+next_action_decision:
+  action: ""
+  expected_observation: ""
+  estimated_cost: {}
+  remaining_action_budget: {}
+  information_gain: "high | medium | low"
+  if_skipped: ""
+  verdict: "execute | defer | stop | escalate"
